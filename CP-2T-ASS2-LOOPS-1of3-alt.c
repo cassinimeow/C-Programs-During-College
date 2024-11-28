@@ -28,7 +28,7 @@ int main() {
     }
     printf("Sum: %d", sum);
 
-    printf("\n\nDO-W(HILE LOOP)");
+    printf("\n\n(DO-WHILE LOOP)");
     sum = 0;
     printf("\nEnter a number of loops: ");
     scanf("%d", &loop);
@@ -40,6 +40,8 @@ int main() {
         i++;
     } while (i <= loop);
     printf("Sum: %d", sum);
+
+    printf("\n\nPROGRAMMER'S NAME: CUENZA, RICKY S.");
     
     return 0;
 }
