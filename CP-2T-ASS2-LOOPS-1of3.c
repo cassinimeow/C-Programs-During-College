@@ -7,7 +7,7 @@ int main() {
     printf("\n(FOR LOOP)");
     printf("\nEnter a number (n): ");
     scanf("%d", &loop);
-    for (i = 1; i < loop; i++) {
+    for (i = 1; i <= loop; i++) {
         sum += i;
     }
     printf("Sum: %d", sum);
