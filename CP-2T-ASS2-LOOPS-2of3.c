@@ -23,6 +23,6 @@ int main() {
         i++;
     } while (i <= 10);
 
-    printf("\nPROGRAMMER'S NAME: CUENZA, RICKY S.");
+    printf("\nProgrammer's Name: Elizander Aguila\n");
     return 0;
 }

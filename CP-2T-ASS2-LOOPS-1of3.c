@@ -34,6 +34,6 @@ int main() {
     } while (i <= loop);
     printf("Sum: %d", sum);
 
-    printf("\n\nPROGRAMMER'S NAME: CUENZA, RICKY S.\n");
+    printf("\n\nProgrammer's Name: Elizander Aguila\n");
     return 0;
 }

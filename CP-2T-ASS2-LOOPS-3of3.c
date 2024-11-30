@@ -35,6 +35,6 @@ int main() {
     } while (i <= 8);
     printf("\n----------------------------------------");
 
-    printf("\n\nPROGRAMMER'S NAME: CUENZA, RICKY S.\n");
+    printf("\n\nProgrammer's Name: Elizander Aguila\n");
     return 0;
 }
