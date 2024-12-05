@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Dito ako nadale ni maam, omaii
 int main() {
     int i;
 
