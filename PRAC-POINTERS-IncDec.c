@@ -1,7 +1,8 @@
 #include <stdio.h>
 
+// Pointers Increment and Decrement
+
 int main() {
-    int number = 33;
-    
+
     return 0;
 }
