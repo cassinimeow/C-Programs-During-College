@@ -7,9 +7,7 @@ float midterm, final, average, finalGrade;
 void header() {
     printf("\nXYZ International College\n");
     printf("\tMakati City\n");
-    
 }
-
 void getStudentDetails() {
     studentsProcessed++;
 
