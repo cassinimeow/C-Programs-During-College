@@ -1,6 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    printf("I like you ate Xian!\n");
+    int grade[3];
+    int j;
+
+    for (j = 0; j <= 2; j++)
+    {
+        printf("Enter Grades: ");
+        scanf("%d", &grade[j]);
+    }
+    
     return 0;
 }
