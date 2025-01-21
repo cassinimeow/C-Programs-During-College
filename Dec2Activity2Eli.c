@@ -8,7 +8,7 @@ int main() {
     printf("\nFor Loop:\n");
     for (i = 1; i <= 10; i++) {
         printf("%d. Elizander Aguila\n", i);
-    }`
+    }
 
     // While Loop
     printf("\nWhile Loop:\n");
