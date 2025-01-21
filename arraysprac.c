@@ -1,73 +1,37 @@
 #include <stdio.h>
 
-/*int main() {
-    int values[8];
-    int differences[8];
-    int indices[8];
-    int i, maxIndex, maxValue;
-
-    // Get input values from user
-    printf("Enter eight values: \n");
-    for (i = 0; i < 8; i++) {
-        printf("Value %d: ", i + 1);
-        scanf("%d", &values[i]);
-        indices[i] = i; // store the original index
-    }
-
-    // Find the maximum value and its index
-    maxValue = values[0];
-    maxIndex = 0;
-    for (i = 1; i < 8; i++) {
-        if (values[i] > maxValue) {
-            maxValue = values[i];
-            maxIndex = i;
-        }
-    }
-
-    // Calculate differences from highest value
-    for (i = 0; i < 8; i++) {
-        differences[i] = maxValue - values[i];
-    }
-
-    // Sort differences and indices in descending order
-    for (i = 0; i < 8; i++) {
-        for (int j = i + 1; j < 8; j++) {
-            if (differences[i] < differences[j]) {
-                int tempDiff = differences[i];
-                differences[i] = differences[j];
-                differences[j] = tempDiff;
-
-                int tempIndex = indices[i];
-                indices[i] = indices[j];
-                indices[j] = tempIndex;
-            }
-        }
-    }
-
-    // Display the sorted differences and original values
-    printf("\nHighest value: %d\n", maxValue);
-    printf("Differences from highest to lowest:\n");
-    for (i = 0; i < 8; i++) {
-        printf("Value %d: %d (difference from highest: %d)\n", indices[i] + 1, values[indices[i]], differences[i]);
-    }
-
-    return 0;
-}*/
-
 int main() {
-    int results[8];
-    int x;
 
-    // Calculate the results of the equation and store them in the array
-    for (x = 1; x <= 8; x++) {
-        results[x - 1] = x * 2;
+    //For Loop
+    int myNumbers[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    for (int i = 0; i < 10; i++) {
+        printf("%d\n", myNumbers[i]);
     }
+    
+    //Change Array Size
+    int myNumbers2[5] = {1, 2, 3, 4, 5};
+    myNumbers2[5] = 6;
+    printf("\n%d\n", myNumbers2[5]);
 
-    // Display the stored values
-    printf("Results of the equation x * 2:\n");
-    for (x = 0; x < 8; x++) {
-        printf("x = %d: %d\n", x + 1, results[x]);
+    //Getting Array Length
+    int myNumbers3[] = {10, 20, 30, 40, 50, 60};
+    int length = sizeof(myNumbers3) / sizeof(myNumbers3[0]);
+    printf("\n%d\n", length);
+
+    //Better loops for getting length if size is not specified
+    int myNumbers4[] = {10, 20, 30, 40, 50};
+    int length1 = sizeof(myNumbers4) / sizeof(myNumbers4[0]);
+    int i;
+
+    for (i = 0; i < length1; i++)
+    {
+        printf("\n%d", myNumbers4[i]);
     }
+    
+
 
     return 0;
 }
+
+   
+
